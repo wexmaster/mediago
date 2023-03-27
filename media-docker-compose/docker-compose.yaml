@@ -1,0 +1,6 @@
+version: '3'
+services:
+  webmediamarkt:
+    image: us-docker.pkg.dev/${PROJECT_ID}/docker-repo/mms-cloud-skeleton:latest
+    ports:
+      - "3000:3000"
